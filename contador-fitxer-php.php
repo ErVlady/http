@@ -1,5 +1,4 @@
 <?php
-
 $contador=0;
 
 if($fd = fopen('counter.txt','r')){
@@ -12,3 +11,4 @@ fwrite($fd2,$contador);
 fclose($fd2);
 
 echo $contador;
+?>
