@@ -1,4 +1,4 @@
-?php
+<?php
 	$count=$_COOKIE['count'];
 	if(isset($count)){
 		$count++;
